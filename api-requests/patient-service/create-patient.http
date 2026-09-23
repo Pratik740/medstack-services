@@ -1,0 +1,15 @@
+### Post request to create an example patient Entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+    "name" : "Shivansh Kandpal",
+    "email" : "shivanshtest1234@gmail.com",
+    "address" : "Kolkata, Anand Vihar",
+    "dateOfBirth" : "2004-12-28",
+    "registeredDate" : "2025-01-07"
+
+}
+
+
+###
